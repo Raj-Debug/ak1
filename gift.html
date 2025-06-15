@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For You</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Cookie', cursive;
+      background-image: url('vday wallpaper _3 - kellyeduckworth.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .container {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 40px 25px;
+      border-radius: 20px;
+      max-width: 90%;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    }
+
+    .message {
+      font-size: 2rem;
+      color: #d81b60;
+      line-height: 2.6rem;
+      margin-bottom: 30px;
+    }
+
+    .gift-button {
+      background-color: #ec407a;
+      color: white;
+      border: none;
+      padding: 14px 36px;
+      font-size: 1.6rem;
+      font-family: 'Cookie', cursive;
+      border-radius: 50px;
+      cursor: pointer;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+      transition: background-color 0.3s ease;
+    }
+
+    .gift-button:hover {
+      background-color: #d81b60;
+    }
+
+    @media (max-width: 500px) {
+      .message {
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+      }
+
+      .gift-button {
+        font-size: 1.3rem;
+        padding: 12px 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="message">
+      I want to celebrate you so badly.<br />
+      I've planned so many little gifts for you — each one from the heart. 💖<br /><br />
+      But I can't give them... unless you want me to. 🌸<br /><br />
+      Peek at them and then decide — only if your heart says yes. 💌
+    </div>
+    <button class="gift-button" onclick="window.location.href='gifts.html'">
+      See the Gifts 🎁
+    </button>
+  </div>
+</body>
+</html>

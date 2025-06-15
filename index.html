@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I've Nothing to Say</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      height: 100vh;
+      background: url('fe5e0386245443.5d939c76d42af.gif') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.7);
+      z-index: 1;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      color: #333;
+      text-align: center;
+      z-index: 2;
+      margin: 1rem;
+      padding: 0 1rem;
+    }
+
+    .button {
+      padding: 12px 24px;
+      font-size: 1rem;
+      background-color: white;
+      color: #333;
+      border: 2px solid #888;
+      border-radius: 25px;
+      cursor: pointer;
+      z-index: 2;
+      margin-top: 1rem;
+      transition: all 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="overlay"></div>
+
+  <h1>I've nothing to say</h1>
+  <button class="button" onclick="location.href='cat.html'">Continue</button>
+
+</body>
+</html>
